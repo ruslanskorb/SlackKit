@@ -10,7 +10,7 @@ let package = Package(
         .package(url: "https://github.com/SlackKit/SKCore", .upToNextMinor(from: "4.1.0")),
         .package(url: "https://github.com/SlackKit/SKClient", .upToNextMinor(from: "4.1.0")),
         .package(url: "https://github.com/SlackKit/SKRTMAPI", .upToNextMinor(from: "4.1.0")),
-        .package(url: "https://github.com/rsk-lab/SKServer", .branch("master"))
+        .package(url: "https://github.com/ruslanskorb/SKServer", .branch("master"))
     ],
     targets: [
         .target(name: "SlackKit",
